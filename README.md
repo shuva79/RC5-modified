@@ -1,0 +1,2 @@
+To run the program, use the diff_rivest_rc[[C_rc5.exe[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Drun[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D file with the following arguments:
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[C[C[C[execute[C[C[D[[d[i[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D./diff_rivest_rc5.exe 32-Hex-Char-Key 16-Hex-Input-Char-1 16-Hex-Input-Char-2 e/d

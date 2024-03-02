@@ -1,0 +1,220 @@
+00000000
+00000000
+
+Key expansion: 
+
+Converting keys from bytes to words:
+
+Subkey at round 1 is 0
+
+Subkey at round 2 is 0
+
+Subkey at round 3 is 0
+
+Subkey at round 4 is 0
+
+Subkey at round 5 is 2304
+
+Subkey at round 6 is 589824
+
+Subkey at round 7 is 150994944
+
+Subkey at round 8 is 0
+
+Subkey at round 9 is 0
+
+Subkey at round 10 is 0
+
+Subkey at round 11 is 0
+
+Subkey at round 12 is 0
+
+Subkey at round 13 is 18688
+
+Subkey at round 14 is 4784128
+
+Subkey at round 15 is 1224736778
+
+Subkey at round 16 is 2560
+
+Initializing the array S
+
+The value of S table at position 1 is 1444465436
+
+The value of S table at position 2 is 4098901205
+
+The value of S table at position 3 is 2458369678
+
+The value of S table at position 4 is 817838151
+
+The value of S table at position 5 is 3472273920
+
+The value of S table at position 6 is 1831742393
+
+The value of S table at position 7 is 191210866
+
+The value of S table at position 8 is 2845646635
+
+The value of S table at position 9 is 1205115108
+
+The value of S table at position 10 is 3859550877
+
+The value of S table at position 11 is 2219019350
+
+The value of S table at position 12 is 578487823
+
+The value of S table at position 13 is 3232923592
+
+The value of S table at position 14 is 1592392065
+
+The value of S table at position 15 is 4246827834
+
+The value of S table at position 16 is 2606296307
+
+The value of S table at position 17 is 965764780
+
+The value of S table at position 18 is 3620200549
+
+The value of S table at position 19 is 1979669022
+
+The value of S table at position 20 is 339137495
+
+The value of S table at position 21 is 2993573264
+
+The value of S table at position 22 is 1353041737
+
+The value of S table at position 23 is 4007477506
+
+The value of S table at position 24 is 2366945979
+
+The value of S table at position 25 is 726414452
+
+Mixing the keys of the arrays S and L, the final values of registers A and B are 1103690734 and 4063567697 respectively.
+00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Encryption process:
+
+A at round 1 is FF0E813D. Initially, A XOR'd with B, gives DBF7ADE6. This is then left shifted to give 36DFBD6F. This is then added with the key table S[2] to give FF0E813D.
+
+B at round 1 is D0DF8F56. Initially, B XOR'd with A, gives 2FD10E6B. This is then left shifted to give 65FA21CD. This is then added with the key table S[3] to give D0DF8F56.
+
+A at round 2 is F92FFC4. Initially, A XOR'd with B, gives DF4D7092. This is then left shifted to give 24B7D35C. This is then added with the key table S[4] to give F92FFC4.
+
+B at round 2 is 5D1030C8. Initially, B XOR'd with A, gives 5282CF0C. This is then left shifted to give 282CF0C5. This is then added with the key table S[5] to give 5D1030C8.
+
+A at round 3 is 16593E88. Initially, A XOR'd with B, gives 4B490E40. This is then left shifted to give 490E404B. This is then added with the key table S[6] to give 16593E88.
+
+B at round 3 is 7D42C737. Initially, B XOR'd with A, gives 6B1BF9BF. This is then left shifted to give 1BF9BF6B. This is then added with the key table S[7] to give 7D42C737.
+
+A at round 4 is B75C7884. Initially, A XOR'd with B, gives CA1EBFB3. This is then left shifted to give D9E50F5F. This is then added with the key table S[8] to give B75C7884.
+
+B at round 4 is A9BFF5F5. Initially, B XOR'd with A, gives 1EE38D71. This is then left shifted to give EE38D711. This is then added with the key table S[9] to give A9BFF5F5.
+
+A at round 5 is 5217E761. Initially, A XOR'd with B, gives FBA81294. This is then left shifted to give 529F7502. This is then added with the key table S[10] to give 5217E761.
+
+B at round 5 is B78536F4. Initially, B XOR'd with A, gives E592D195. This is then left shifted to give CB25A32B. This is then added with the key table S[11] to give B78536F4.
+
+A at round 6 is 6C4FE9E3. Initially, A XOR'd with B, gives DBCADF17. This is then left shifted to give F17DBCAD. This is then added with the key table S[12] to give 6C4FE9E3.
+
+B at round 6 is 36968208. Initially, B XOR'd with A, gives 5AD96BEB. This is then left shifted to give D6CB5F5A. This is then added with the key table S[13] to give 36968208.
+
+A at round 7 is C4878C79. Initially, A XOR'd with B, gives F2110E71. This is then left shifted to give 110E71F2. This is then added with the key table S[14] to give C4878C79.
+
+B at round 7 is 7FD19345. Initially, B XOR'd with A, gives BB561F3C. This is then left shifted to give 7976AC3E. This is then added with the key table S[15] to give 7FD19345.
+
+A at round 8 is 2436D45. Initially, A XOR'd with B, gives 7D92FE00. This is then left shifted to give B25FC00F. This is then added with the key table S[16] to give 2436D45.
+
+B at round 8 is FC45ED48. Initially, B XOR'd with A, gives FE06800D. This is then left shifted to give C0D001BF. This is then added with the key table S[17] to give FC45ED48.
+
+A at round 9 is DBB9DCAC. Initially, A XOR'd with B, gives 27FC31E4. This is then left shifted to give FC31E427. This is then added with the key table S[18] to give DBB9DCAC.
+
+B at round 9 is 496BF5E2. Initially, B XOR'd with A, gives 92D2294E. This is then left shifted to give 2294E92D. This is then added with the key table S[19] to give 496BF5E2.
+
+A at round 10 is CA7AB263. Initially, A XOR'd with B, gives 83114781. This is then left shifted to give C451E06. This is then added with the key table S[20] to give CA7AB263.
+
+B at round 10 is AAA0A2CD. Initially, B XOR'd with A, gives 60DA10AE. This is then left shifted to give 6D08573. This is then added with the key table S[21] to give AAA0A2CD.
+
+A at round 11 is BD322A4F. Initially, A XOR'd with B, gives 17928882. This is then left shifted to give 511042F2. This is then added with the key table S[22] to give BD322A4F.
+
+B at round 11 is BFBAEC24. Initially, B XOR'd with A, gives 288C66B. This is then left shifted to give 63358144. This is then added with the key table S[23] to give BFBAEC24.
+
+A at round 12 is B59505DC. Initially, A XOR'd with B, gives A2FE9F8. This is then left shifted to give A2FE9F80. This is then added with the key table S[24] to give B59505DC.
+
+B at round 12 is C26BFA8D. Initially, B XOR'd with A, gives 77FEFF51. This is then left shifted to give 177FEFF5. This is then added with the key table S[25] to give C26BFA8D.
+
+A at round 13 is DFEA2EFF. Initially, A XOR'd with B, gives 1D81D472. This is then left shifted to give 3A8E43B0. This is then added with the key table S[26] to give DFEA2EFF.
+
+B at round 13 is EC0EA39. Initially, B XOR'd with A, gives D12AC4C6. This is then left shifted to give 68956263. This is then added with the key table S[27] to give EC0EA39.
+
+A at round 14 is 8DA25589. Initially, A XOR'd with B, gives 8362BFB0. This is then left shifted to give 6106C57F. This is then added with the key table S[28] to give 8DA25589.
+
+B at round 14 is C57F6106. Initially, B XOR'd with A, gives 48DD348F. This is then left shifted to give BA691E91. This is then added with the key table S[29] to give C57F6106.
+
+A at round 15 is 374D23D2. Initially, A XOR'd with B, gives F23242D4. This is then left shifted to give 8C90B53C. This is then added with the key table S[30] to give 374D23D2.
+
+B at round 15 is B53C8C9. Initially, B XOR'd with A, gives 3C1EEB1B. This is then left shifted to give AC6CF07B. This is then added with the key table S[31] to give B53C8C9.
+
+A at round 16 is 3DD63678. Initially, A XOR'd with B, gives 3685FEB1. This is then left shifted to give BFD626D. This is then added with the key table S[32] to give 3DD63678.
+
+B at round 16 is B13685FE. Initially, B XOR'd with A, gives 8CE0B386. This is then left shifted to give 868CE0B3. This is then added with the key table S[33] to give B13685FE.
+
+A at round 17 is A3382CE1. Initially, A XOR'd with B, gives 120EA91F. This is then left shifted to give C483AA47. This is then added with the key table S[34] to give A3382CE1.
+
+B at round 17 is 241D523E. Initially, B XOR'd with A, gives 87257EDF. This is then left shifted to give E4AFDBF. This is then added with the key table S[35] to give 241D523E.
+
+A at round 18 is E1C95FB7. Initially, A XOR'd with B, gives C5D40D89. This is then left shifted to give 71750362. This is then added with the key table S[36] to give E1C95FB7.
+
+B at round 18 is C4E2EA06. Initially, B XOR'd with A, gives 252BB5B1. This is then left shifted to give D89295DA. This is then added with the key table S[37] to give C4E2EA06.
+
+A at round 19 is 4AED6C49. Initially, A XOR'd with B, gives 8E0F864F. This is then left shifted to give 83E193E3. This is then added with the key table S[38] to give 4AED6C49.
+
+B at round 19 is 1F0C9F1C. Initially, B XOR'd with A, gives 55E1F355. This is then left shifted to give C3E6AAAB. This is then added with the key table S[39] to give 1F0C9F1C.
+
+A at round 20 is 555E1F35. Initially, A XOR'd with B, gives 4A528029. This is then left shifted to give 94A52802. This is then added with the key table S[40] to give 555E1F35.
+
+B at round 20 is 5294A50. Initially, B XOR'd with A, gives 50775565. This is then left shifted to give ACAA0EEA. This is then added with the key table S[41] to give 5294A50.
+
+Key visible while encrypting
+00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Key in main 0
+
+Hex value is A
+Hex value A in decimal is 10
+Hex value is 0
+Hex value 0 in decimal is 0
+2619
+
+Printing factors: 
+3	9	27	97	291	873	
+
+RC5 encryption: 555E1F35 
+
+RC5 encryption: 5294A50 
+
+Printing wrapped arrays: 3	9	11	1	3	9	
+Final value of A: AA5E1F35
+Final value of B: 529BA50
+Converted ciphertext (first word): AA5E1F35
+
+Converted ciphertext (second word): 529BA50
+
+plaintext 00000000 00000000  --->  ciphertext AA5E1F35 0529BA50  
+
+Hex value is A
+Hex value A in decimal is 10
+Hex value is 0
+Hex value 0 in decimal is 0
+2619
+
+Printing factors: 
+3	9	27	97	291	873	
+
+RC5 encryption: AA5E1F35 
+
+RC5 encryption: 529BA50 
+
+Printing wrapped arrays: 3	9	11	1	3	9	
+Final value of A: A55E1F35
+Final value of B: 5294A50
+Converted ciphertext (first word): A55E1F35
+
+Converted ciphertext (second word): 5294A50

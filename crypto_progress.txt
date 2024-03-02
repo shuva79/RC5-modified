@@ -1,0 +1,29 @@
+15th Dec, 2023: Restarted doing the crypto algo cause old one just stopped working for some reason
+
+16th Dec, 2023:
+- Encryption/decryption process done for now still needs some refining
+- Beautified code and added a few comments to make sense of everything
+
+
+21th Dec, 2023:
+- Getting closer to modification
+- Flipping bits is a little hard but I've made a function to do it
+
+23rd Dec, 2023:
+- Word modification might be a bitch and a half, I'll do this if I have the time
+- Creating an array of factors, was unsurprisingly, a bitch and a half as well.
+  So what I had to do was allocate memory for the array cause dynamic arrays dont exist in c
+  I had to then find out a way to update these values. Now, I have to worry about the function
+  and then the positions thingy. I'll figure it out till tomorrow morning.
+- The function I came up with is 3*x^2 + 5 * root(x). Root x will give float so I'll multiply it by 10 and floor it.
+
+25th Dec, 2023:
+- Find out how to convert int value into hex to convert that into a string.
+
+28th Dec, 2023:
+- Fixed a few things, converting the modified ciphertext from char to unsigned int(used for hex)
+- Encryption process is finally done
+- For decryption, first pass the value through the whole modification part and then decrypt. Otherwise, shits gon come out janky as hell
+- Everything looks good, now focus on the flowchart and algorithm.
+- For algorithm, show the entire 24 round process (I have already automated the whole thing just copy paste) 
+- Make two flowcharts, one showing RC5 encryption and the other showing modification.
